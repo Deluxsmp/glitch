@@ -1,0 +1,8 @@
+{
+  "name":"glitch-discord-bot",
+  "version":"1.0.0",
+  "private":true,
+  "type":"module",
+  "scripts":{"start":"node index.js","dev":"node --watch index.js","commands":"node bot/deploy-commands.js","dashboard:dev":"npm --prefix dashboard run dev","dashboard:build":"npm --prefix dashboard run build"},
+  "dependencies":{"cors":"^2.8.5","discord.js":"^14.21.0","dotenv":"^16.6.1","express":"^5.1.0","express-rate-limit":"^8.0.1","express-session":"^1.18.2","helmet":"^8.1.0","better-sqlite3":"^12.2.0"}
+}
